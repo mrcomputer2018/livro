@@ -1,6 +1,7 @@
 import './App.css';
 import Exerc02 from './components/Exercicies/exerc02';
 import Exerc03 from './components/Exercicies/exerc03_key';
+import Exerc04 from './components/Exercicies/exerc04_KeyHooks';
 
 /* const welcome = {
   greeting: 'Hey',
@@ -24,6 +25,8 @@ function App() {
       <Exerc02/>
       <hr/>
       <Exerc03/>
+      <hr/>
+      <Exerc04/>
     </div>
   );
 }
