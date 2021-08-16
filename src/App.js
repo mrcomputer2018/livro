@@ -1,5 +1,6 @@
 import './App.css';
 import Exerc02 from './components/Exercicies/exerc02';
+import Exerc03 from './components/Exercicies/exerc03_key';
 
 /* const welcome = {
   greeting: 'Hey',
@@ -21,6 +22,8 @@ function App() {
       {/* <label htmlFor="search">Search</label>
       <input id="search" type="text"></input> */}
       <Exerc02/>
+      <hr/>
+      <Exerc03/>
     </div>
   );
 }
