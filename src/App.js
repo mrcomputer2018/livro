@@ -1,4 +1,5 @@
 import './App.css';
+import Exerc02 from './components/Exercicies/exerc02';
 
 /* const welcome = {
   greeting: 'Hey',
@@ -17,8 +18,9 @@ function App() {
         <h1>Hello {getTitle('React')}</h1>
        {/*  <h1>{welcome.greeting} {welcome.tittle}</h1> */}
       </header>
-      <label htmlFor="search">Search</label>
-      <input id="search" type="text"></input>
+      {/* <label htmlFor="search">Search</label>
+      <input id="search" type="text"></input> */}
+      <Exerc02/>
     </div>
   );
 }
