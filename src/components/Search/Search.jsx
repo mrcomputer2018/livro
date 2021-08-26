@@ -1,11 +1,15 @@
 import React from "react"
 
-function Search() {
+const Search = () => {
+    const handleChange = (event) => {
+        console.log(event.target.value);
+    }
+
     return (
-        <>
+        <div>
             <label className="exerc02" htmlFor="search">Search</label>
-            <input className="exerc02" id="search" type="text"></input>
-        </>
+            <input className="exerc02" id="search" type="text" onChange={handleChange}></input>
+        </div>
     )
 }
 
